@@ -1,0 +1,31 @@
+{
+  "apiVersion": 2,
+
+  "name": "ew/content-grid",
+
+  "title": "Content Grid",
+
+  "category": "widgets",
+
+  "icon": "screenoptions",
+
+  "description": "Display a grid of posts.",
+
+  "attributes": {
+
+    "postsToShow": {
+      "type": "number",
+      "default": 6
+    },
+
+    "columns": {
+      "type": "number",
+      "default": 3
+    }
+
+  },
+
+  "editorScript": "file:./index.js",
+
+  "render": "file:./render.php"
+}
